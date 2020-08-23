@@ -1,6 +1,9 @@
 #datetime {
   font-family: Orbitron;
   font-size: 4rem;
+
   color: #dedde5;
   letter-spacing: 7px;
+  padding: 30px;
+  overflow: initial;
 }

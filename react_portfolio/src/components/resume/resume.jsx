@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./resume.css";
 
 class Resume extends Component {
   state = {};
@@ -7,7 +8,7 @@ class Resume extends Component {
       <section class="resume">
         <p class="resume">
           <a
-            href="https://drive.google.com/drive/folders/1L0z8U1QuKuzpI0iKOfDvZmoz1bVGcH5B?usp=sharing  "
+            href="https://drive.google.com/drive/folders/1L0z8U1QuKuzpI0iKOfDvZmoz1bVGcH5B?usp=sharing"
             target="_blank"
           >
             Resume

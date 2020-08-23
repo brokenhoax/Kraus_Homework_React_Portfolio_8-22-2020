@@ -188,13 +188,14 @@ a:link {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1.2fr 1.5fr;
-  grid-template-rows: 1fr 4fr 3fr 2fr;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "main   main   header"
-    "main   main  image"
-    "resume   right  image"
-    "bottom bottom image";
+    "main main header"
+    "main main image"
+    "resume links image"
+    "one two image"
+    "three four image";
   height: 100vh;
   /* margin: 2em; */
 }
@@ -229,32 +230,55 @@ header {
   font-family: "Bebas Neue", cursive;
 }
 
-.resume {
-  grid-area: resume;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  background-color: #d5d9e0;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-}
-
-.right {
-  grid-area: right;
-  display: grid;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  background-color: #9fa5ad;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-}
-
-.bottom {
+.links {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-area: bottom;
+  grid-area: links;
+  background-color: #0e152e;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: one;
+  background-color: #19c9a4;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: two;
+  background-color: #e1a53e;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: three;
+  background-color: #a344bc;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: four;
   background-color: #373d42;
   font-family: "Bebas Neue", cursive;
   color: whitesmoke;
@@ -272,17 +296,6 @@ header {
   align-items: center;
 }
 
-.resume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon {
-  padding-left: 4%;
-  padding-right: 4%;
-}
-
 @media only screen and (max-width: 768px) {
   .grid-container {
     display: grid;
@@ -291,8 +304,11 @@ header {
     grid-template-areas:
       "main"
       "resume"
-      "right"
-      "bottom"
+      "links"
+      "one"
+      "two"
+      "three"
+      "four"
       "header";
   }
 
@@ -312,20 +328,35 @@ header {
     align-items: center;
   }
 
-  .resume {
+  /* .resume {
     display: grid;
     grid-area: resume;
     background-color: #d5d9e0;
-  }
+  } */
 
-  .right {
-    grid-area: right;
+  .links {
+    grid-area: links;
     background-color: #9fa5ad;
   }
 
-  .bottom {
-    grid-area: bottom;
-    background-color: #373d42;
+  .one {
+    grid-area: one;
+    background-color: yellow;
+  }
+
+  .two {
+    grid-area: two;
+    background-color: blue;
+  }
+
+  .three {
+    grid-area: three;
+    background-color: pink;
+  }
+
+  .four {
+    grid-area: four;
+    background-color: purple;
   }
 
   .image {

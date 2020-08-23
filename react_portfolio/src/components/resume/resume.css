@@ -1,0 +1,8 @@
+.resume {
+  font-family: "Bebas Neue", cursive;
+  grid-area: resume;
+  display: grid;
+  justify-content: center;
+  background-color: #d5d9e0;
+  font-size: 6rem;
+}
