@@ -1,0 +1,344 @@
+/* ==================================================== */
+/* *************** START CSS RESET ****************** */
+/* ==================================================== */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* ==================================================== */
+/* ***************** END CSS RESET ******************** */
+/* ==================================================== */
+
+html {
+  font-size: 62.5%;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 1.8rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.5fr;
+  grid-template-rows: 1fr 4fr 3fr 2fr;
+  grid-template-areas:
+    "main   main   header"
+    "main   main  image"
+    "resume   right  image"
+    "bottom bottom image";
+  height: 100vh;
+  /* margin: 2em; */
+}
+
+main {
+  grid-area: main;
+  position: relative;
+  background-color: #f2f4f8;
+  font-family: "Bebas Neue", cursive;
+  font-size: 8rem;
+  padding-top: 10vh;
+  padding-left: 4vw;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a3ffc;
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+}
+
+.image {
+  grid-area: image;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./codesplay.jpg") no-repeat;
+  background-size: cover;
+  font-family: "Bebas Neue", cursive;
+}
+
+.resume {
+  grid-area: resume;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5d9e0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
+.right {
+  grid-area: right;
+  display: grid;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #9fa5ad;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: bottom;
+  background-color: #373d42;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.box {
+  margin: 0px;
+  background-color: white;
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "main"
+      "resume"
+      "right"
+      "bottom"
+      "header";
+  }
+
+  main {
+    grid-area: main;
+    background-color: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume {
+    display: grid;
+    grid-area: resume;
+    background-color: #d5d9e0;
+  }
+
+  .right {
+    grid-area: right;
+    background-color: #9fa5ad;
+  }
+
+  .bottom {
+    grid-area: bottom;
+    background-color: #373d42;
+  }
+
+  .image {
+    display: none;
+  }
+
+  #name {
+    text-align: center;
+  }
+
+  .about {
+    background-color: #e7a940;
+    overflow: hidden;
+    font-size: 2rem;
+  }
+}
