@@ -206,8 +206,9 @@ main {
   background-color: #f2f4f8;
   font-family: "Bebas Neue", cursive;
   font-size: 8rem;
-  padding-top: 10vh;
-  padding-left: 4vw;
+  padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 header {
@@ -236,6 +237,17 @@ header {
   align-items: center;
   grid-area: links;
   background-color: #0e152e;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: resume;
+  background-color: #d5d9e0;
   font-family: "Bebas Neue", cursive;
   color: whitesmoke;
   font-size: 3rem;
@@ -279,7 +291,7 @@ header {
   justify-content: center;
   align-items: center;
   grid-area: four;
-  background-color: #373d42;
+  background-color: #21b3d8;
   font-family: "Bebas Neue", cursive;
   color: whitesmoke;
   font-size: 3rem;
@@ -304,17 +316,18 @@ header {
     grid-template-areas:
       "main"
       "resume"
-      "links"
       "one"
       "two"
       "three"
       "four"
+      "links"
       "header";
   }
 
   main {
     grid-area: main;
-    background-color: #f2f4f8;
+    background-color: black;
+    color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,37 +339,38 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
   }
 
-  /* .resume {
-    display: grid;
+  .resume {
     grid-area: resume;
-    background-color: #d5d9e0;
-  } */
+    background-color: #9fa5ad;
+  }
 
   .links {
     grid-area: links;
-    background-color: #9fa5ad;
+    background-color: whitesmoke;
+    color: black;
   }
 
   .one {
     grid-area: one;
-    background-color: yellow;
+    background-color: #19c9a4;
   }
 
   .two {
     grid-area: two;
-    background-color: blue;
+    background-color: #e1a53e;
   }
 
   .three {
     grid-area: three;
-    background-color: pink;
+    background-color: #a344bc;
   }
 
   .four {
     grid-area: four;
-    background-color: purple;
+    background-color: #21b3d8;
   }
 
   .image {

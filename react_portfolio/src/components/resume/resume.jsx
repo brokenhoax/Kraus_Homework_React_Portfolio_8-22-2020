@@ -6,7 +6,7 @@ class Resume extends Component {
   render() {
     return (
       <section class="resume">
-        <p class="resume">
+        <p>
           <a
             href="https://drive.google.com/drive/folders/1L0z8U1QuKuzpI0iKOfDvZmoz1bVGcH5B?usp=sharing"
             target="_blank"
