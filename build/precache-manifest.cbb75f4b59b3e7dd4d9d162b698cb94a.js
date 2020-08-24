@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2e8083e2475ff2de3490f717d1ae4cf",
+    "revision": "1035b310fc3c87f70239bd526d63598f",
     "url": "/Kraus_Homework_React_Portfolio_8-22-2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kraus_Homework_React_Portfolio_8-22-2020/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "13bb5ccb2d519a3b984e",
+    "revision": "cedb2d65bc4a5512ed39",
     "url": "/Kraus_Homework_React_Portfolio_8-22-2020/static/css/main.fa45cd6b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/2.8ed74aff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13bb5ccb2d519a3b984e",
-    "url": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/main.ae528d1c.chunk.js"
+    "revision": "cedb2d65bc4a5512ed39",
+    "url": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/main.f8792616.chunk.js"
   },
   {
     "revision": "c7fa45fe37e6cd3c43f1",
