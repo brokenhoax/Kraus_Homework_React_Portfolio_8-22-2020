@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Kraus_Homework_React_Portfolio_8-22-2020/static/css/main.fa45cd6b.chunk.css",
+    "main.js": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/main.ae528d1c.chunk.js",
+    "main.js.map": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/main.ae528d1c.chunk.js.map",
+    "runtime-main.js": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/runtime-main.d17ff1b5.js",
+    "runtime-main.js.map": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/runtime-main.d17ff1b5.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/Kraus_Homework_React_Portfolio_8-22-2020/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.8ed74aff.chunk.js": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/2.8ed74aff.chunk.js",
+    "static/js/2.8ed74aff.chunk.js.map": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/2.8ed74aff.chunk.js.map",
+    "index.html": "/Kraus_Homework_React_Portfolio_8-22-2020/index.html",
+    "precache-manifest.896b879038545ea2b4897f87e1a700e1.js": "/Kraus_Homework_React_Portfolio_8-22-2020/precache-manifest.896b879038545ea2b4897f87e1a700e1.js",
+    "service-worker.js": "/Kraus_Homework_React_Portfolio_8-22-2020/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/Kraus_Homework_React_Portfolio_8-22-2020/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.fa45cd6b.chunk.css.map": "/Kraus_Homework_React_Portfolio_8-22-2020/static/css/main.fa45cd6b.chunk.css.map",
+    "static/js/2.8ed74aff.chunk.js.LICENSE.txt": "/Kraus_Homework_React_Portfolio_8-22-2020/static/js/2.8ed74aff.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Kraus_Homework_React_Portfolio_8-22-2020/static/media/codesplay.f72b0149.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d17ff1b5.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.8ed74aff.chunk.js",
+    "static/css/main.fa45cd6b.chunk.css",
+    "static/js/main.ae528d1c.chunk.js"
+  ]
+}
